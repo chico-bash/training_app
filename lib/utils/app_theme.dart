@@ -1,8 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:training_app/utils/app_color.dart';
 
 class AppTheme {
   static ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
+
+    extensions: const [
+      AppColors(
+        success: Color(0xFF22C55E),
+        warning: Color(0xFFF59E0B),
+        info: Color(0xFF2F6BFF),
+        danger: Color(0xFFEF4444),
+      ),
+    ],
 
     // 🎨 Cores base
     scaffoldBackgroundColor: const Color(0xFF0B1220),
