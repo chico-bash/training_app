@@ -29,6 +29,11 @@ class AppTheme {
         fontWeight: FontWeight.w600,
         color: Color(0xFFE5E7EB),
       ),
+      headlineSmall: TextStyle(
+        fontSize: 18,
+        fontWeight: FontWeight.w500,
+        color: Color(0xFF9CA3AF),
+      ),
       titleLarge: TextStyle(
         fontSize: 18,
         fontWeight: FontWeight.w600,
