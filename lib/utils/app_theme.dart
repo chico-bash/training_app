@@ -86,6 +86,8 @@ class AppTheme {
     // 🔳 Inputs
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
+      prefixIconColor: Color(0xFF2F6BFF),
+      suffixIconColor: Color(0xFF2F6BFF),
       fillColor: const Color(0xFF0F172A),
       hintStyle: const TextStyle(color: Color(0xFF6B7280)),
       labelStyle: const TextStyle(color: Color(0xFF9CA3AF)),
