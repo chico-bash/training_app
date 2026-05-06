@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:training_app/pages/current_training.dart';
 import 'package:training_app/pages/dashboard_page.dart';
 import 'package:training_app/pages/login_page.dart';
+import 'package:training_app/pages/training_active.dart';
 import 'package:training_app/utils/app_theme.dart';
 
 void main() {
@@ -17,6 +19,8 @@ class AppWidget extends StatelessWidget {
       routes: {
         '/login': (context) => LoginPage(),
         '/dashboard': (context) => DashboardPage(),
+        '/current-training': (context) => CurrentTrainingPage(),
+        '/training': (context) => TrainingActivePage(),
       },
       initialRoute: '/login',
     );

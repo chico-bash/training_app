@@ -152,7 +152,9 @@ class HomePage extends StatelessWidget {
 
                   Container(height: 10),
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context).pushNamed("/current-training");
+                    },
                     child: Container(
                       padding: EdgeInsets.symmetric(horizontal: 10),
                       child: Row(
