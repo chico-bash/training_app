@@ -5,10 +5,12 @@ class Input extends StatefulWidget {
   final TextInputType keyboardType;
   final Widget? prefixIcon;
   final bool isPassword;
+  final int? maxLine;
 
   const Input({
     super.key,
     required this.label,
+    this.maxLine,
     this.prefixIcon,
     this.isPassword = false,
     this.keyboardType = TextInputType.text,

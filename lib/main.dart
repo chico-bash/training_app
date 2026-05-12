@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:training_app/pages/current_training.dart';
 import 'package:training_app/pages/dashboard_page.dart';
+import 'package:training_app/pages/finish_training.dart';
 import 'package:training_app/pages/login_page.dart';
 import 'package:training_app/pages/training_active.dart';
 import 'package:training_app/utils/app_theme.dart';
@@ -21,6 +22,7 @@ class AppWidget extends StatelessWidget {
         '/dashboard': (context) => DashboardPage(),
         '/current-training': (context) => CurrentTrainingPage(),
         '/training': (context) => TrainingActivePage(),
+        '/finish': (context) => FinishTrainingPage(),
       },
       initialRoute: '/login',
     );
